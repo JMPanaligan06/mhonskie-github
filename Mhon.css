@@ -1,21 +1,21 @@
-body {
-    font-family: 'Times New Roman', Times, serif;
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
-    background-color: hsl(30, 54%, 90%)
-    color: #333;
+    background-color: hsl(30, 60%, 85%); 
     padding: 50px;
     display: flex;
     justify-content: center;
 }
+
 .prep{
-    background: #f9f3f6;
+    background: hsl(330, 100%, 98%);
     padding: 10px;
     border-radius: 8px;
     margin-top: 15px;
 }
 .panel {
     width: 50%;
-    background-color: hsl(0, 0%, 100%)white;
+    background-color: white;
     padding: 20px;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -61,7 +61,4 @@ table td strong {
 .border2{
     border-bottom: 1px solid #ddd;
     padding: 20px;
-}
-.color2{
-    color: black;
 }
